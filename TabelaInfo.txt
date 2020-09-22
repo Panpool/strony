@@ -1,0 +1,18 @@
+** Tabela **
+
+** Wyszukiwarka **
+<input id="myInput" type="text" placeholder="">
+
+** Out put **
+<table id="myTable">
+<tr class="header">
+<th style="width:380px;">Nazwa i opis</th>
+</tr>
+<tr>
+<td></td>
+</tr>
+
+
+
+
+
