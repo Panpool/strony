@@ -10,6 +10,8 @@ table.js --> https://raw.githack.com/Panpool/strony/master/tabela.js
 
 zegar.js --> https://raw.githack.com/Panpool/strony/master/zegar.js
 
+Zegares.js --> https://raw.githack.com/Panpool/strony/master/Zegares.js
+
 // Tabela ------------------------------------------------------------------------------------------
 
 <input id="myInput" type="text" placeholder="Wyszukaj słówko...">
@@ -25,5 +27,6 @@ zegar.js --> https://raw.githack.com/Panpool/strony/master/zegar.js
   
 </table>
 
-----------------------------------------------------------------------------------------------------
+// Zegar es-------------------------------------------------------------------------------------------
 
+var countDownDate = new Date("Oct 10, 2020 08:00:00").getTime();
