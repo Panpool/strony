@@ -1,0 +1,29 @@
+// Links ------------------------------------------------------------------------------------------
+
+GitHack --> https://raw.githack.com
+
+Anim.css --> https://raw.githack.com/Panpool/strony/master/anim.cssAnim.css 
+
+StyleTable.css --> https://raw.githack.com/Panpool/strony/master/styletable.css
+
+table.js --> https://raw.githack.com/Panpool/strony/master/tabela.js
+
+zegar.js --> https://raw.githack.com/Panpool/strony/master/zegar.js
+
+// Tabela ------------------------------------------------------------------------------------------
+
+<input id="myInput" type="text" placeholder="Wyszukaj słówko...">
+
+<table id="myTable">
+<tr class="header">
+<th style="width:50%px;">Nazwa i opis</th>
+    
+</tr>
+<tr>
+<td>Test tutaj</td>
+</tr>
+  
+</table>
+
+----------------------------------------------------------------------------------------------------
+
