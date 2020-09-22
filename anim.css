@@ -3,7 +3,7 @@
 div.anim1 {
 font-family: 'bebas neue';
 color: rgba(4, 0, 255, 1);
-font-size: 6vw;
+font-size: 16vw;
 animation-name: anim1;
 animation-duration: 2s;
 animation-iteration-count: 1;
@@ -20,7 +20,7 @@ animation-iteration-count: 1;
 div.zegar {
   color: red;
   text-align: center;
-  font-size: 6vw;
+  font-size: 16vw;
   margin-top: 0px;
   font-family: 'bebas neue', cursive;
   animation-name: zegar;
