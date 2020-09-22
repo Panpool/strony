@@ -1,3 +1,20 @@
+div.anim1 {
+font-family: 'bebas neue';
+color: rgba(4, 0, 255, 1);
+font-size: 120px;
+animation-name: anim1;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+
+@keyframes anim1 {
+  0% {color: rgba(4, 0, 255, 0);}
+  25% {color: rgba(4, 0, 255, 0.250);}
+  50% {color: rgba(4, 0, 255, 0.500);}
+  75% {color: rgba(4, 0, 255, 0.750);}
+  100% {color: rgba(4, 0, 255, 1);}
+}
+
 div.zegar {
   color: red;
   text-align: center;
