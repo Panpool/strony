@@ -16,6 +16,14 @@ Checkbox.css --> https://raw.githack.com/Panpool/strony/master/checkbox.css
 
 Checkbox.js --> https://raw.githack.com/Panpool/strony/master/checkbox.js
 
+// Pokaż ukryj 
+
+<div onclick="myFunction()" class="pokaz">tekst tutaj</div>
+
+<div id="ukryte" class="ukryte" >
+Tekst tutaj
+</div>
+
 // Check box 
 <label class="container">Text tutaj
   <input type="checkbox" id="checkbox1" onClick="save()">
