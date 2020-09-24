@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&family=Ubuntu:wght@500&display=swap');
+
+/* Ukryty i odkryty tekst */
+
+div.pokaz {
+font-size: 60px;
+user-select: none; 
+-webkit-user-select: none; 
+-khtml-user-select: none; 
+-moz-user-select: none; 
+-ms-user-select: none; 
+}
+
+div.ukryte {
+  margin-top: 0px;
+  visibility: hidden;
+  font-size: 60px;
+}
+
+/* Animacje */
+
+div.anim1 {
+font-family: 'bebas neue';
+color: rgba(4, 0, 255, 1);
+font-size: 16vw;
+animation-name: anim1;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+  0% {color: rgba(4, 0, 255, 0);}
+  25% {color: rgba(4, 0, 255, 0.250);}
+  50% {color: rgba(4, 0, 255, 0.500);}
+  75% {color: rgba(4, 0, 255, 0.750);}
+  100% {color: rgba(4, 0, 255, 1);}
+}
+div.anim2 {
+  color: red;
+  text-align: center;
+  font-size: 16vw;
+  margin-top: 0px;
+  font-family: 'bebas neue', cursive;
+  animation-name: zegar;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes anim2 {
+  0% {color: #ff0000;}
+  10% {color: #fc7b03;}
+  20% {color: #fcfc03;}
+  30% {color: #73fc03;}
+  40% {color: #03fcd7;}
+  50% {color: #0324fc;}
+  60% {color: #8003fc;}
+  70% {color: #a903fc;}
+  80% {color: #fc03f8;}
+  90% {color: #fc0352;}
+  100% {color: #ff0000;}
+}
+
+div.zegar {
+  color: red;
+  text-align: center;
+  font-size: 16vw;
+  margin-top: 0px;
+  font-family: 'bebas neue', cursive;
+  animation-name: zegar;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes zegar {
+  0% {color: #ff0000;}
+  10% {color: #fc7b03;}
+  20% {color: #fcfc03;}
+  30% {color: #73fc03;}
+  40% {color: #03fcd7;}
+  50% {color: #0324fc;}
+  60% {color: #8003fc;}
+  70% {color: #a903fc;}
+  80% {color: #fc03f8;}
+  90% {color: #fc0352;}
+  100% {color: #ff0000;}
+}
+
+/* Tabela */
+
+* {
+  box-sizing: border-box;
+  color: balck;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#myInput {
+  
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 370px;
+  font-size: 18px;
+  padding: 12px 20px 12px 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 370px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+ 
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 8px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: lightgrey;
+  
+}
+
+/* Checkbox */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: -15px;
+  font-family: 'ubuntu';
+  cursor: pointer;
+  font-size: 60px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: darkblue;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 13px;
+  top: 0px;
+  width: 20px;
+  height: 30px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
