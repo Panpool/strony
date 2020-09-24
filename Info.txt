@@ -1,4 +1,4 @@
-// Links ------------------------------------------------------------------------------------------
+// Links
 
 GitHack --> https://raw.githack.com
 
@@ -12,7 +12,18 @@ zegar.js --> https://raw.githack.com/Panpool/strony/master/zegar.js
 
 Zegares.js --> https://raw.githack.com/Panpool/strony/master/Zegares.js
 
-// Tabela ------------------------------------------------------------------------------------------
+Checkbox.css --> https://raw.githack.com/Panpool/strony/master/checkbox.css
+
+Checkbox.js --> https://raw.githack.com/Panpool/strony/master/checkbox.js
+
+// Check box 
+<label class="container">Text tutaj
+  <input type="checkbox" id="checkbox1" onClick="save()">
+  <span class="checkmark"></span>
+</label>
+
+
+// Tabela 
 
 <input id="myInput" type="text" placeholder="Wyszukaj słówko...">
 
@@ -27,6 +38,6 @@ Zegares.js --> https://raw.githack.com/Panpool/strony/master/Zegares.js
   
 </table>
 
-// Zegar es-------------------------------------------------------------------------------------------
+// Zegar es
 
 var countDownDate = new Date("Oct 10, 2020 08:00:00").getTime();
