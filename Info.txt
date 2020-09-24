@@ -22,7 +22,9 @@ ukryj.js --> https://raw.githack.com/Panpool/strony/master/ukryj.js
 
 // Pokaż ukryj 
 
-<div onclick="myFunction()" class="pokaz">tekst tutaj</div>
+<div onclick="myFunction()" class="pokaz">tekst tutaj</div> 
+
+<div class="ukryte" id="ukryte">teskt tutaj</div>
 
 <div id="ukryte" class="ukryte" >
 Tekst tutaj
