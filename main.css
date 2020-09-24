@@ -3,12 +3,18 @@
 /* Ukryty i odkryty tekst */
 
 div.pokaz {
+text-decoration:underline;
+transition: 0.3s;
 font-size: 60px;
 user-select: none; 
 -webkit-user-select: none; 
 -khtml-user-select: none; 
 -moz-user-select: none; 
 -ms-user-select: none; 
+}
+
+div.pokaz:hover {
+color: blue;
 }
 
 div.ukryte {
