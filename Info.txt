@@ -2,11 +2,13 @@
 
 GitHack --> https://raw.githack.com
 
-Anim.css --> https://raw.githack.com/Panpool/strony/master/anim.cssAnim.css 
+Anim.css --> https://raw.githack.com/Panpool/strony/master/anim.css 
 
 StyleTable.css --> https://raw.githack.com/Panpool/strony/master/styletable.css
 
-table.js --> https://raw.githack.com/Panpool/strony/master/tabela.js
+table.js -->
+- https://raw.githack.com/Panpool/strony/master/tabela.js
+- https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 
 zegar.js --> https://raw.githack.com/Panpool/strony/master/zegar.js
 
